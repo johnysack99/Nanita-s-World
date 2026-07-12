@@ -4,16 +4,16 @@ padding-left: 20px;
 padding-right: 20px;
 }
 h1{color: deeppink; margin-bottom: 20px; text-align: center;
-font-family: 'pacifico' ,cursive;
-font-weight: normal;
+font-family: 'Quicksand' ,cursive;
+font-weight: bold;
 }
 h2{color: hotpink;
-font-family: 'pacifico' ,cursive;
-font-weight: normal;    
+font-family: 'Quicksand' ,cursive;
+font-weight: bold;    
 }
 h3{
     color: deeppink; margin-bottom: 20px; text-align: center;
-font-family: 'pacifico' ,cursive;
+font-family: 'Quicksand' ,cursive;
 font-weight: normal;
 }
 
