@@ -51,7 +51,8 @@ transform: rotate(3deg);
     background-color: white;
     padding: 20px;
     margin: 30px auto;
-    width: 60%;
+    width: 90%;
+    max-width: 700px;
     border-radius: 15px;
     border-left: 8px solid hotpink;
     box-shadow: 0px 5px 15px rgba(255, 20, 147, 0.2);
@@ -83,6 +84,7 @@ transform: rotate(3deg);
 
 .envelope-container{
     position: relative;
+    max-width: 90%;
     width: 350px;
     height: 250px;
     margin: 150px auto;
