@@ -1,5 +1,7 @@
 body{background-color : lightpink;
 padding-bottom: 150px;
+padding-left: 20px;
+padding-right: 20px;
 }
 h1{color: deeppink; margin-bottom: 20px; text-align: center;
 font-family: 'pacifico' ,cursive;
@@ -8,6 +10,11 @@ font-weight: normal;
 h2{color: hotpink;
 font-family: 'pacifico' ,cursive;
 font-weight: normal;    
+}
+h3{
+    color: deeppink; margin-bottom: 20px; text-align: center;
+font-family: 'pacifico' ,cursive;
+font-weight: normal;
 }
 
 #name-box{padding: 10px 20px; border-radius: 25px; border: 2px solid deeppink;}
