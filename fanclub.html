@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <!-- importing google's fonts library-->
+       <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Nanita's Fanclub</title>
+    </head>
+    <body>
+       <!--the folowing is a code for a navbar directly from the documintation at getbootstrap.com-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">NANITA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="fanclub.html">Fanclub</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="read-me.html">Read me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1>Become a Fan now!</h1>
+          <h3> Wanna join millions of people around the world? Nanita has the biggest fanclub in the world, most recent surveys show 43 million fan. Submit your name below and become a fan today! Join US, 
+            Become a Fan. </h3>
+          <input type="text" id="name-box"> <button id="join-button">join now</button>
+          <h4 id="welcome-message"></h4>
+          <script>
+            let myButton = document.querySelector('#join-button')
+            let myInput = document.querySelector('#name-box')
+            let myMessage = document.querySelector('#welcome-message')
+            myButton.addEventListener('click', function(){
+    
+
+              myMessage.innerHTML = "Welcome to the club!, " + myInput.value
+              myInput.value = "";
+
+            });
+            myInput.addEventListener('keypress', function(event){
+              if (event.key === 'Enter'){
+                myMessage.innerHTML = "Welcome to the club!, " + myInput.value;
+                myInput.value = "";
+              }
+            });
+          </script>
+    </body>
+</html>

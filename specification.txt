@@ -1,0 +1,4 @@
+1. 16 html tags used: <link>, <script>, <nav>, <div>, <a>, <button>, <span>, <ul>, <li>, <h1>, <h2>, <h3>, <h4>, <p>, <input>, <img>
+2. 5 css properties used: background-color, border-radius, box-shadow, transform, display(flex).
+3. Bootstrap feature: i integrated Bootstrap responsive Navbar component to create a clean and collapsible menu across all four html pages.
+4. javascript feature: i used javascript in two places: to create an interactive form that greets the user by name when they join the fanclub, and to toggle CSS classes that trigger a sliding animation for a hidden letter on the read me page.
